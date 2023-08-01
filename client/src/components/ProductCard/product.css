@@ -1,0 +1,80 @@
+.productCard {
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2rem;
+  transition: all 0.5s;
+  padding-bottom: 0.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.productCard > img {
+  width: 100%;
+  max-height: 16rem;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  margin: 1rem 0.5rem;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.productCard > div {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.productCard > span {
+  margin: 0.5rem;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.productCard > div > .react-stars {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .productCard > p {
+    font-size: 1.7rem;
+  }
+
+  .productCard > div {
+    margin: 0;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5rem;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+}

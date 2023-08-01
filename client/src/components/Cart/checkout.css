@@ -1,0 +1,32 @@
+.Stepper-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.StepLabel-label {
+  color: rgba(0, 0, 0, 0.649);
+  font-weight: bold;
+}
+
+.StepLabel-active {
+  color: tomato;
+}
+
+.StepLabel-completed {
+  color: tomato;
+}
+
+.StepIcon-root {
+  color: tomato;
+}
+
+.StepConnector-line {
+  border-top-width: 3px;
+  border-color: tomato;
+}
+
+.StepIcon-active,
+.StepIcon-completed {
+  color: tomato;
+}

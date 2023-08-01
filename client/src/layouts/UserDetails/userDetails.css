@@ -1,0 +1,80 @@
+/* userDashboard.css */
+
+.user-dashboard {
+  display: flex;
+  margin-top: 50px;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  transition: transform 0.3s ease-out;
+}
+.sidebar a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.content {
+  flex: 3;
+  padding: 20px;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+/* CSS for the Logout button */
+.sidebar button .btn-red {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Optional: Add hover effect */
+.sidebar button .btn-red:hover {
+  background-color: darkred;
+}
+
+.orders-section,
+.cart-section {
+  /* Add styles for orders and cart content here */
+}
+
+@media (max-width: 768px) {
+  .user-dashboard {
+    flex-direction: column;
+  }
+}

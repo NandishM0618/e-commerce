@@ -1,0 +1,10 @@
+{isAuthenticated ? (
+            <Link to="/accountDetails">
+              <img src={user?.image?.url} alt="profile" />
+            </Link>
+          ) : (
+            <>
+              <Link to="/login">Login</Link>
+              <Link to="/register">Register</Link>
+            </>
+          )}

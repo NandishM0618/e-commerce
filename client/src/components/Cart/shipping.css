@@ -1,0 +1,61 @@
+.shippingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.shippingBox {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+}
+
+.shippingHeading {
+  text-align: center;
+  color: #333333;
+}
+
+.shippingForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.shippingForm div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.shippingForm div svg {
+  margin-right: 10px;
+  color: #888888;
+}
+
+.shippingForm input,
+.shippingForm select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.shippingBtn {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: tomato;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shippingBtn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

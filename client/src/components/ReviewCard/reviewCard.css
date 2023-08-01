@@ -1,0 +1,39 @@
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.review-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-card-user {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+.review-card-body {
+  margin-top: 10px;
+}
+
+.review-text {
+  font-size: 14px;
+  line-height: 1.5;
+}

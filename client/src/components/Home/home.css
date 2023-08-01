@@ -1,0 +1,136 @@
+.banner {
+  background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.banner > h1 {
+  margin: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+.banner > p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: "Lucida Sans";
+  color: aqua;
+}
+
+.banner > a > button {
+  margin-bottom: 5rem;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.banner > a > button:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20rem;
+  padding: 1rem;
+  margin: 5rem auto;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.container {
+  display: flex;
+  margin: 0.7rem auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.productCard {
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2rem;
+  transition: all 0.5s;
+  padding-bottom: 0.5rem;
+}
+
+.productCard > img {
+  width: 14rem;
+}
+
+.productCard > div {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  margin: 1rem 0.5rem;
+  margin-bottom: 0;
+}
+
+.productCard > span {
+  margin: 0.5rem;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1rem);
+}
+
+@media screen and (max-width: 600px) {
+  .productCard > p {
+    font-size: 1.7rem;
+  }
+
+  .productCard > div {
+    margin: 0;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5rem;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+}

@@ -1,0 +1,46 @@
+.CartItemCard {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.CartItemCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.CartItemCard div {
+  flex-grow: 1;
+}
+
+.CartItemCard div a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.CartItemCard div a:hover {
+  color: #007bff;
+}
+
+.CartItemCard div span {
+  font-size: 16px;
+  color: #777;
+}
+
+.CartItemCard div p {
+  font-size: 16px;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.CartItemCard div p:hover {
+  color: #c82333;
+}

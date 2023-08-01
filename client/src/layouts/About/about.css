@@ -1,0 +1,34 @@
+/* About.module.css */
+
+/* Apply basic styles to the about page container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/* Add some spacing between paragraphs */
+p + p {
+  margin-top: 15px;
+}
+
+/* Apply a different style to the last paragraph for the thank you message */
+.last-paragraph {
+  font-weight: bold;
+  color: #007bff;
+}
